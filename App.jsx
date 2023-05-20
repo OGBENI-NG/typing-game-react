@@ -37,6 +37,7 @@ function App() {
                         <span>Set timer:</span>
                         <div className="input-con">
                             <input 
+                                className={theme === 'light' ? 'input-theme-one' : 'input-theme-two'}
                                 value={timer}
                                 type="number" 
                                 onChange={handleInputChange}

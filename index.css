@@ -111,6 +111,13 @@ input {
     font-size: 18px;
 }
 
+.input-theme-one{
+    background-color: var(--Off--white);
+}
+.input-theme-two{
+    background-color: var(--Off--black);
+}
+
 input:disabled {
     color: var(--Light--grey);
     border-color: var(--Light--red);
