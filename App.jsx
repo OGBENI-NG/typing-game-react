@@ -60,8 +60,10 @@ function App() {
                     ref={txtBoxRef}
                 />
                 <div className="time-container">
-                    <h3>Time remaining: {timeRemaining}</h3>
-                    <h3>Word count: {wordCount}</h3>
+                    <div className="word-count-con">
+                        <h3 className="time">Time remaining: {timeRemaining}</h3>
+                        <h3>Word count: {wordCount}</h3>
+                    </div>
                     <button     
                         className={theme === 'light' ? 'btn-color' : 'btn-color'}
                         disabled={isTimeRunning || timer.length === 0 || timer <= 0}
