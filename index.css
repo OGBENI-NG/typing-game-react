@@ -132,8 +132,10 @@ h3 {
 .theme-container {
     display: flex;
     align-items: center;
-    
-   
+}
+
+.time-remaining {
+    padding-left: 8px;
 }
 
 .icon {

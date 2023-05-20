@@ -62,7 +62,15 @@ function App() {
                 />
                 <div className="time-container">
                     <div className="word-count-con">
-                        <h3 className="time">Time remaining: {timeRemaining}</h3>
+                        <h3 className="time">
+                            Seconds remaining: 
+                            <span 
+                                className="time-remaining"
+                                style={{color: timeRemaining < 5 ?  'hsl(0, 100%, 67%)' : ""}}
+                            >
+                                {timeRemaining}
+                            </span>
+                        </h3>
                         <h3>Word count: {wordCount}</h3>
                     </div>
                     <button     
