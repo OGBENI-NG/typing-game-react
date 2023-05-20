@@ -65,7 +65,7 @@ function App() {
                     <h3>Time remaining: {timeRemaining}</h3>
                     <h3>Word count: {wordCount}</h3>
                     <button     
-                        className={theme === 'light' ? 'btn-color' : ''}
+                        className={theme === 'light' ? 'btn-color' : 'btn-color'}
                         disabled={isTimeRunning || timer.length === 0 || timer <= 0}
                         onClick={startGame}
                     >start</button>
