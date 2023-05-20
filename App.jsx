@@ -1,4 +1,4 @@
-import React, {useContext} from "react"
+import React, { useContext } from "react"
 import darkIcon from "./img/dark-icon.png"
 import lightIcon from "./img/light-icon.png"
 import { ThemeContext } from "./useThemeContext"
@@ -20,8 +20,6 @@ function App() {
     
     const {theme, toggleTheme} = useContext(ThemeContext)
 
-
-    
     return(
         <div className={`container ${theme}-theme`}>
             <div className="container-inner">

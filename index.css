@@ -17,10 +17,6 @@ body {
     padding: 0;
     font-family: 'Mochiy Pop P One', sans-serif;
     position: relative;
-    background: rgb(55,93,111);
-    background: linear-gradient(117deg, rgba(55,93,111,1) 0%, rgba(14,24,35,1) 46%, rgba(23,100,66,1) 100%);
-    
-    
 }
 
 .container {
