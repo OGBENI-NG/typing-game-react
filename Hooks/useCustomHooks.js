@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 
-function useCustomHooks(startingTime = 10) {
+function useCustomHooks(startingTime = 15) {
     const [number, setNumber] = useState('')
     const [text, setText] = useState('')
     const [isTimeRunning, setIsTimeRunning] = useState(false)

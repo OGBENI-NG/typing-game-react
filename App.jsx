@@ -57,7 +57,6 @@ function App() {
                     onChange={handleChange}
                     disabled={!isTimeRunning }
                     value={text}
-                    
                     ref={txtBoxRef}
                 />
                 <div className="time-container">
